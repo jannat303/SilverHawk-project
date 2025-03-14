@@ -1,0 +1,941 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family:"Open Sans", serif;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* top header start */
+header .top_header {
+	background-color: #173a69;
+	padding: 10px;
+}
+
+header .top_header .container .header_content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+header .top_header .container .header_content .div1 ul {
+    list-style-type: none;
+
+}
+
+header .top_header .container .header_content .div1 ul li {
+    display: inline-block;
+    margin-right: 45px;
+    color: white;
+    font-size: 13px;
+ 
+}
+
+header .top_header .container .header_content .div1 ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+header .top_header .container .header_content .div1 ul li a i{
+    color: white;
+    margin-right: 10px;
+}
+header .top_header .container .header_content .div2{
+    text-align: right;
+
+}
+header .top_header .container .header_content .div2 a:nth-child(2){
+	margin: 0 11px;
+}
+header .top_header .container .header_content .div2 a i{
+    color: white;
+    
+}
+header .top_header .container .header_content .div2 a i:last-child{
+    padding-right: 0;
+}
+/* top header complete */
+/* navigation menu start */
+.main_nav{
+    padding:15px 0;
+}
+header .main_nav .container nav {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+
+}
+header .main_nav .container nav .logo{
+    text-align: left;
+}
+
+header .main_nav .container nav{
+    text-align: right;
+}
+header .main_nav .container nav .menu {
+    align-content: center;
+}
+
+header .main_nav .container nav .menu ul {
+    list-style-type: none;
+    text-align: right;
+}
+
+header .main_nav .container nav .menu ul li {
+    display: inline-block;
+}
+
+header .main_nav .container nav .menu ul li a {
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+    font-weight: 700;
+    padding:0 28px;
+    position: relative;
+
+}
+
+
+header .main_nav .container nav .menu ul li:last-child a {
+    padding-right: 0;
+}
+
+header .main_nav .container nav .menu ul li a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 3px;
+    left: 0;
+    bottom: -46px;
+}
+
+header .main_nav .container nav .menu ul li:hover a::after {
+    width: 100%;
+    background-color: #0c1f38;
+    transition: 0.4s;
+    font-weight: 600;
+}
+header .main_nav .container .menu_bar{
+    display:none;
+    color: #173a69;
+    font-size: 20px;
+}
+/* navigation menu complete */
+
+/* =========================== */
+/* slider section start */
+/* this is slider One */
+.main_slider .slider_1 {
+    background-image: url(images/slider1_bg.jpg);
+    height: 526px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-content: center;
+}
+.main_slider .slider_1 .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.main_slider .slider_1 .container .right_div h1{
+    font-size: 60px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.main_slider .slider_1 .container .right_div h3 {
+    font-size: 17px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.main_slider .slider_1 .container .right_div p{
+    font-size: 14px;
+    margin-bottom: 44px;
+    color: black;
+    text-align: left;
+    text-transform:capitalize ;
+}
+.main_slider .slider_1 .container .right_div a{
+    text-decoration: none;
+    color:  #173a69;
+    border: 2px solid  #173a69;
+    padding: 14px 25px;
+    font-weight: 700;
+    transition: .4s;
+    text-transform: uppercase;
+}
+.main_slider .slider_1 .container .right_div .button a:first-child{
+    color: white;
+    background-color: #173a69;
+   margin-right: 15px;
+   transition: .4s;
+}
+.main_slider .slider_1 .container .right_div .button a:first-child:hover{
+    background-color: transparent;
+    color: #173a69;
+}
+.main_slider .slider_1 .container .right_div .button a:last-child:hover{
+    background-color: #173a69;
+    color:white;
+}
+/* this is for mobile slider */
+.main_slider .slider_1 .container .slider_1 .mobile-slider img{
+    display: none;
+}
+
+/* slider One complete */
+/* slider two start */
+.main_slider .slider_2{
+    background-image: url(images/slider2_bg.jpg);
+    height: 526px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-content: center;
+}
+.main_slider .slider_2 .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.main_slider .slider_2 .container .left_div h3 {
+    font-size: 17px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.main_slider .slider_2 .container .left_div h2{
+    font-size: 60px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.main_slider .slider_2 .container .left_div p{
+    font-size: 14px;
+    margin-bottom: 30px;
+    color: black;
+    text-align: left;
+    text-transform:capitalize ;
+}
+.main_slider .slider_2 .container .left_div a{
+    text-decoration: none;
+    color:  #173a69;
+    border: 2px solid  #173a69;
+    padding: 14px 25px;
+    font-weight: 700;
+    transition: .4s;
+    text-transform: uppercase;
+}
+.main_slider .slider_2 .container .left_div .button a:first-child{
+    color: white;
+    background-color: #173a69;
+   margin-right: 15px;
+}
+.main_slider .slider_2 .container .left_div .button a:first-child:hover{
+    background-color: transparent;
+    color: #173a69;
+}
+.main_slider .slider_2 .container .left_div .button a:last-child:hover{
+    background-color: #173a69;
+    color:white;
+}
+/* slider two complete */
+/* slider three start */
+.main_slider .slider_3 {
+    background-image: url(images/slider3_bg.jpg);
+    height: 526px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-content: center;
+}
+.main_slider .slider_3 .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.main_slider .slider_3 .container .right_div h3 {
+    font-size: 17px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color:white;
+}
+.main_slider .slider_3 .container .right_div h2{
+    font-size: 60px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color:white;
+}
+.main_slider .slider_3 .container .right_div p{
+    font-size: 14px;
+    margin-bottom: 30px;
+    color:white;
+    text-align: left;
+    text-transform:capitalize ;
+}
+.main_slider .slider_3 .container .right_div a{
+    text-decoration: none;
+    color:  #173a69;
+    border: 2px solid  #173a69;
+    padding: 14px 25px;
+    font-weight: 700;
+    transition: .4s;
+    text-transform: uppercase;
+}
+.main_slider .slider_3 .container .right_div .button a:first-child{
+    color: white;
+    background-color: #173a69;
+   margin-right: 15px;
+}
+.main_slider .slider_3 .container .right_div .button a:first-child:hover{
+    background-color: transparent;
+    color: #173a69;
+}
+.main_slider .slider_3 .container .right_div .button a:last-child:hover{
+    background-color: #173a69;
+    color:white;
+}
+/* slider three complete */
+/* slider section complete */
+.owl-theme .owl-dots .owl-dot span{
+    height: 12px;
+    width:12px;
+    margin: 5px 3px;
+}
+.owl-theme .owl-dots span{
+    border:2px solid #173a69;
+    background-color: transparent !important;
+
+}
+.owl-theme .active span{
+    background-color: #173a69 !important;
+}
+.owl-theme .owl-nav.disabled +.owl-dots{
+    position: absolute;
+   top:91%;
+   left: 48%;
+}
+/* what services do we offer main div1 */
+.maindiv-1{
+    background-color: #ffffff;
+    padding-top: 85px;
+}
+.maindiv-1 .container .top_div{
+    align-content: center;
+}
+.maindiv-1 .container .top_div h2{
+    font-size: 28px;
+  text-transform: uppercase;
+  text-align: center;
+  position:relative;
+  line-height: 0;
+}
+.maindiv-1 .container .top_div .image_container {
+    padding-top:45px;
+    align-content: center;
+    padding-left: 455px;
+}
+.maindiv-1 .container .bottom_div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-top: 135px;
+    padding-bottom: 125px;
+    text-align: center;
+}
+.maindiv-1 .container .bottom_div p{
+    font-size: 17px;
+   margin-top: 40px;
+    color: black;
+    text-transform: capitalize;
+    text-align: center;
+}
+.maindiv-1 .container .top_div h2::after{
+    content: '';
+    position: absolute;
+    background-image: url('images/square_design.png');
+    height: 23px;
+    width:227px;
+    background-repeat: no-repeat;
+    margin-top:46px;
+    transform: translateX(-50%);
+    left:50%;
+}
+/* main div complete */
+
+/* about us div start */
+.Aboutus-div{
+    background-image:url('images/aboutus_bg.jpg');
+}
+.Aboutus-div .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-content: center;
+    
+}
+.Aboutus-div .container .paragraph-div{
+    padding-top: 140px;
+}
+.Aboutus-div .container .paragraph-div h2{
+    font-size: 28px;
+    text-transform: uppercase;
+    text-align: center;
+    position:relative;
+    text-align: left;
+    font-weight: 700;
+    
+}
+.Aboutus-div .container .paragraph-div h2::after{
+    content: '';
+    position: absolute;
+    background-image: url('images/about-design.png');
+    height:23px;
+    width:124px;
+    margin-top: 70px;
+    background-repeat: no-repeat;
+    left:0;
+}
+.Aboutus-div .container .image-div{
+    padding-top:95px;
+    padding-bottom:75px;
+}
+.Aboutus-div .container .image-div img{
+    max-width: 100%;
+    max-height: 100%;
+    
+}
+.Aboutus-div .container .paragraph-div p{
+    margin-top: 85px;
+    font-size: 15px;
+    color: black; 
+    text-align: left;
+    text-transform: capitalize;
+}
+.Aboutus-div .container .paragraph-div p:last-child{
+    margin-top: 35px;
+}
+/* about us div end */
+
+/* gallery section start */
+.home-page .gallery-section .contanier{
+    padding-top: 91px;
+}
+.gallery-section .container .gallery-heading h2{
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+}
+.gallery-section .container .gallery-heading{
+    padding-top:74px;
+    margin-bottom: 110px;
+}
+.gallery-section .container .gallery-heading h2::after{
+    content: '';
+    position: absolute;
+    background-image: url('images/square_design.png');
+    height: 23px;
+    width:227px;
+    background-repeat: no-repeat;
+    margin-top:65px;
+    transform: translateX(-50%);
+    left:50%;
+}
+.gallery-image{
+    margin-top:65px;
+}
+.gallery-section .gallery-image{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:30px;
+    align-content: center;
+    text-align: center;
+}
+
+.gallery-section .gallery-image .item .caption img{
+    height: 35px;
+    width: 35px;
+    opacity: 0;
+}
+
+.gallery-section .gallery-image .item img{
+    width:100%;
+
+}
+.gallery-section .gallery-image .item{
+    position: relative;
+    align-content: center;
+}
+.gallery-section .gallery-image .item::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height:99%;
+    background-color: rgba(0, 0, 0, 0.671);
+    left:0;
+    top:0;
+    opacity:0;
+    transition: .4s;
+}
+.gallery-section .gallery-image .item:hover::after, .gallery-section .gallery-image .item:hover .caption h3,.gallery-section .gallery-image .item:hover .caption p,.gallery-section .gallery-image .item:hover .caption img {
+    opacity: 1;
+}
+/* gallery div end */
+/* item div start */
+.item .caption{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+.item .caption h3{
+    color: white;
+    opacity: 0;
+    font-weight: 700;
+    font-size:26px;
+}
+
+.item .caption p{
+    font-style: italic;
+    font-size:17px ;
+    color: white;
+    opacity: 0;
+    text-align: center;
+    text-transform: lowercase;
+}
+.item .caption p::first-letter{
+    text-transform: capitalize;
+}
+.item .caption .plus{
+    width:40px;
+    font-size: 30px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-left: 50px;
+}
+/* item div end */ 
+.button-div .container{
+    margin-top: 42px;
+    text-align: center;
+    margin-bottom: 96px;
+}
+.button-div .container a{
+    font-weight: 700;
+    font-size: 14px;
+    border:3px solid #173a69;
+    text-decoration: none;
+    background-color:#173a69 ;
+    padding: 10px 31px;
+    color: white;
+    transition: .4s; text-transform: uppercase;
+}
+.button-div .container a:hover{
+    background-color: transparent;
+    color: #173a69;
+}
+/* button end */
+
+/* footer start */
+footer{
+    text-align: center;
+    align-content: center;
+}
+footer .top-footer{
+    width:100%;
+    background-color: #173a69;
+    color: white;
+    text-align: center;
+    align-content: center;
+    padding:84px 0;
+}
+footer .top-footer p{
+    font-size: 24px;
+    display: inline-block;
+    text-transform: capitalize;
+    margin-right: 12px !important;
+}
+footer .top-footer a{
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+    font-size: 30px;
+}
+footer .logo-container{
+    padding-top:77px;
+}
+footer .logo-container .container img{
+    height: 130px;
+    width: 230px;
+}
+footer .logo-container .container {
+    align-content: center;
+}
+footer .logo-container .container .icon{
+    padding-top: 45px;
+}
+footer .logo-container .container .icon a{
+    padding: 0 12px;
+}
+footer .logo-container .container .icon a i{
+    color: #7f7f7f;
+    border:2px solid #7f7f7f;
+    border-radius: 50%;
+    height: 46px;
+    width: 46px;
+    align-content: center;
+    text-align: center;
+    transition: .4s;
+    font-size: 26px;
+}
+footer .logo-container .container .icon a i:hover{
+    color: white;
+    background-color: #173a69;
+    border:2px solid #173a69;
+}
+footer .bottom-footer{
+    background-color: black;
+    margin-top: 73px;
+}
+footer .bottom-footer .container{
+    text-align: center;
+    padding:32px 0;
+}
+footer .bottom-footer .container p{
+    color: white;
+    font-size:15px;
+    text-align: center;
+}
+footer .bottom-footer .container p a{
+    color: white;
+    font-weight: 700;
+}
+
+
+/* this is inner banner */
+.inner_banner{
+    background-image: url('images/services-bg.jpg');
+    height:325px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-content: center;
+    text-align: center;
+}
+.inner_banner .container .banner_text h2,p{
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+}
+.inner_banner .container .banner_text h2{
+    font-size: 32px;
+    font-weight: 700;
+}
+.inner_banner .container .banner_text p{
+    font-size: 14px;
+}
+.inner_banner .container .banner_text p a{
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+}
+ /* services page start */
+/* house renovation section start */
+.house-renovation{
+    background-image: url('images/bg-image.jpg');
+    padding-top:123px;
+    padding-bottom:134px;
+}
+.house-renovation .container .renovation_info{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 25px;
+}
+
+.house-renovation .container .renovation_info .images h3{
+    font-size: 22px;
+    color: #173a69;
+    text-align: left;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.house-renovation .container .renovation_info .images p{
+    font-size: 15px;
+    color: black;
+    text-align: left;
+    line-height: 30px;
+    margin-top: 25px;
+    text-transform: lowercase;
+}
+.house-renovation .container .renovation_info .images img{
+    width:100%;
+}
+.house-renovation .container .renovation_info .images p::first-letter{
+    text-transform: capitalize;
+}
+
+/* about us page start */
+.welcome-to{
+    background-image: url('images/aboutus_bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-content: center;
+    padding-top:86px;
+    padding-bottom:78px;
+}
+.welcome-to .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+}
+.welcome-to .container .left-div img{
+    width:100%;
+}
+.welcome-to .container .left-div{
+    align-content: center;
+}
+.welcome-to .container .right-div h2{
+    text-transform: uppercase;
+    font-size: 28px;
+    font-weight: 600;
+    display: inline-block;
+    position: relative;
+    margin-top: 50px;
+    left:0;
+}
+
+.welcome-to .container .right-div h2 .color{
+    font-weight: 800;
+    color: #173a69;
+}
+.welcome-to .container .right-div h2::after{
+    content: '';
+    position: absolute;
+    background-image: url('images/about-design.png');
+    height:23px;
+    width:124px;
+    margin-top: 70px;
+    background-repeat: no-repeat;
+    left:0;
+}
+.welcome-to .container .right-div p{
+    font-size: 15px;
+    margin-top: 75px; 
+    text-align: left;
+    color: black;
+    font-weight: 300;
+    text-transform: capitalize;
+}
+.welcome-to .container .right-div p:last-child{
+    margin-top:30px;
+}
+/* sales section start */
+.sales{
+    background-image: url('images/sales-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    align-content: center;
+    padding:80px 0;
+}
+.sales .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    box-sizing: border-box;
+}
+.sales .container .diva h2, .sales .container .divb h2, .sales .container .divc h2{
+    color: #173a69;
+    font-size: 24;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 19px 0;
+    position: relative;
+
+}
+.sales .container .diva, .divb, .divc{
+    background-color: white;
+    padding: 32px 13px;
+    margin-left:15px;
+    margin-right:15px
+}
+.sales .container .diva h2::after, .sales .container .divb h2::after, .sales .container .divc h2::after{
+    content: '';
+    position: absolute;
+    height: 23px;
+    width: 146px;
+    top: 95%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    background-image: url('images/mini-square.jpg');
+    background-repeat: no-repeat;
+}
+.sales .container .diva p, .sales .container .divb p, .sales .container .divc p{
+    font-size: 15px;
+    font-weight: light;
+    margin: 0 27px;
+    box-sizing: border-box;
+    margin-top: 19px;
+    color: black;
+    text-transform: lowercase;
+}
+.sales .container .diva p span, .sales .container .divb p span, .sales .container .divc p span{
+    color: #173a69;
+    font-weight: 600;
+}
+.sales .container .diva p::first-letter, .sales .container .divb p::first-letter, .sales .container .divc p::first-letter{
+    text-transform: capitalize;
+}
+/* silver hawk section start */
+.silver .container {
+    text-align: center;
+    align-content: center;
+    padding:46px 0;
+}
+.silver .container span{
+    font-weight: 700;
+    font-size: 21px;
+}
+.silver .container .diff{
+    color: #173a69;
+}
+.silver .container h3{
+    font-weight: 700;
+}
+.silver .container h3 .up{
+    text-transform: uppercase;
+}
+/* silver hawk section end */
+
+/* maintainance start */
+.maintenance{
+    background-image: url('images/maintain-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-content: center;
+    padding-top:83px;
+    padding-bottom:124px;
+}
+.maintenance .container{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+
+}
+.maintenance .container .div-d, .div-e, .div-f{
+    text-align: center;
+   box-sizing: border-box;
+}
+.maintenance .container .div-d img, .div-e img, .div-f img{
+    background-color:transparent ;
+}
+.maintenance .container .div-d h2,.maintenance .container .div-e h2,.maintenance .container .div-f h2{
+  color: #173a69;
+  font-size: 25px;
+  font-weight: 700;
+  margin-top:32px;
+}
+.maintenance .container .div-d p,.maintenance .container .div-e p,.maintenance .container .div-f p{
+    color: black;
+    text-transform: lowercase;
+    margin-top: 19px;
+    font-size:15px;
+}
+.maintenance .container .div-d p .upper, .maintenance .container .div-e p .upper, .maintenance .container .div-f p .upper{
+    text-transform: uppercase;
+}
+/* maintainance end */
+
+/* gallery page top footer */
+.gallery_page_top_footer .top-footer{
+    margin-top: 114px;
+}
+
+/* contact us page start */
+.form{
+    margin-bottom: 96px;
+}
+.form .container{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap:53px;
+}
+.form .container .left-side-div{
+    padding-top: 97px;
+}
+.form .container .left-side-div p{
+    color: black;
+    text-align: left;
+    font-family:  "Roboto", serif !important;
+    text-transform: lowercase;
+    font-weight: 300;
+    font-size: 16px;
+    margin-top: 14px;
+}
+.form .container .left-side-div p::first-letter{
+    text-transform: capitalize;
+}
+.form .container .left-side-div h2{
+    font-size: 26px;
+    font-weight: 700;
+    font-family:  "Roboto", serif !important;
+}
+
+.form .container .left-side-div form input{
+    width: 100%;
+    padding: 10px 10px;
+    font-family: "Roboto", serif !important;
+    font-weight: 300;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+.form .container .left-side-div form .form_div_one{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 28px;
+    margin-top: 29px;
+}
+.form .container .left-side-div form .form_div_two{
+    margin:24px 0;
+}
+.form .container .left-side-div form .form_div_three textarea{
+    width: 765px;
+    height:137px;
+    resize:none;
+    padding:10px 10px;
+}
+.form .container .left-side-div button{
+    margin-top: 19px;
+    background-color: #173a69;
+    color: #ffffff;
+    padding:15px 45px;
+    font-family: "Roboto", serif !important;
+    font-weight: 300;
+    font-size: 15px;
+    transition: .4s;
+    cursor: pointer;
+}
+.form .container .left-side-div button:hover{
+    border: 2px solid #173a69;
+    background-color: white;
+    color:#173a69;
+}
+.form .container .right-side-div{
+    padding-top:103px;
+}
+.form .container .right-side-div h2{
+    font-size: 25px;
+    font-weight: 700;
+}
+.form .container .right-side-div ul{
+    margin-top: 26px;
+}
+.form .container .right-side-div ul li{
+    list-style-type: none;
+   padding-top: 22px;
+}
+.form .container .right-side-div .info ul li img,h3{
+    display:inline-block;
+}
+.form .container .right-side-div ul li h3{
+    font-family:  "Roboto", serif !important;
+    color: #173a69;
+    font-weight: 500;
+    font-size: 16px;
+}
+.form .container .right-side-div .info ul li a{
+    text-decoration: none;
+    color:black;
+    font-size: 16px;
+    font-weight: 300;
+    font-family:  "Roboto", serif !important;
+}
