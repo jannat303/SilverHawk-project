@@ -736,7 +736,7 @@ footer .bottom-footer .container p a{
 }
 .sales .container .diva h2, .sales .container .divb h2, .sales .container .divc h2{
     color: #173a69;
-    font-size: 24;
+    font-size: 24px;
     font-weight: 700;
     text-transform: uppercase;
     padding: 19px 0;
@@ -784,13 +784,14 @@ footer .bottom-footer .container p a{
 }
 .silver .container span{
     font-weight: 700;
-    font-size: 21px;
 }
 .silver .container .diff{
     color: #173a69;
 }
 .silver .container h3{
     font-weight: 700;
+    text-transform: capitalize;
+    font-size: 21px;
 }
 .silver .container h3 .up{
     text-transform: uppercase;
@@ -809,6 +810,7 @@ footer .bottom-footer .container p a{
 .maintenance .container{
    display: grid;
    grid-template-columns: 1fr 1fr 1fr;
+   gap:15px;
 
 }
 .maintenance .container .div-d, .div-e, .div-f{
@@ -888,10 +890,11 @@ footer .bottom-footer .container p a{
     margin:24px 0;
 }
 .form .container .left-side-div form .form_div_three textarea{
-    width: 765px;
+    width: 100%;
     height:137px;
     resize:none;
     padding:10px 10px;
+    box-sizing:border-box;
 }
 .form .container .left-side-div button{
     margin-top: 19px;
@@ -921,7 +924,7 @@ footer .bottom-footer .container p a{
 }
 .form .container .right-side-div ul li{
     list-style-type: none;
-   padding-top: 22px;
+   margin-top: 22px;
 }
 .form .container .right-side-div .info ul li img,h3{
     display:inline-block;
