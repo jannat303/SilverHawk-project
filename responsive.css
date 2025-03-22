@@ -367,7 +367,6 @@
         text-align: center;
         order: 1;
     }
-
     header .top_header .container .header_content .div1 ul li {
         margin-right: 10px
     }
@@ -1147,9 +1146,6 @@
     }
     footer .top-footer p {
         font-size: 11px;
-    }
-    footer .top-footer p {
-        padding-right: 0px !important;
     }
     footer .bottom-footer .container p {
         font-size: 6px;
