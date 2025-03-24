@@ -7,9 +7,6 @@
     .main_slider .slider_1, .main_slider .slider_2, .main_slider .slider_3 {
         height: 500px;
     }
-    .container {
-        padding: 0 20px;
-    }
     .Aboutus-div .container {
         column-gap: 20px;
     }
@@ -20,8 +17,8 @@
         height: 231px;
     }
 }
-@media only screen and (max-width:1200px){
-  header .main_nav .container nav .logo {
+@media only screen and (max-width:1200px){   
+    header .main_nav .container nav .logo {
         align-content: center;
     }
     .Aboutus-div .container .image-div {
@@ -51,10 +48,11 @@
     .inner_banner {
         height: 220px;
     }
+
 }
 @media only screen and (max-width:1100px){
     header .main_nav .container nav .menu ul li a {
-        padding: 0 18px;
+        margin: 0 18px;
     }
     .main_slider .slider_1, .main_slider .slider_2, .main_slider .slider_3 {
         height: 420px;
@@ -72,7 +70,7 @@
     .Aboutus-div .container .left-div img {
 	   max-width: 93%;
     }
-   .Aboutus-div .container .right-div p:last-child {
+    .Aboutus-div .container .right-div p:last-child {
 	   padding-top: 27px;
     }
    .Aboutus-div .container .right-div p {
@@ -87,6 +85,7 @@
     .inner_banner {
         height: 210px;
     }
+
 }
 @media only screen and (max-width:1024px){
     .main_slider .slider_1, .main_slider .slider_2, .main_slider .slider_3 {
@@ -137,19 +136,19 @@
         font-size: 13px;
     }
     .main_slider .slider_1 .container .right_div p, .main_slider .slider_2 .container .left_div p, .main_slider .slider_3 .container .right_div p {
-       font-size: 10px;
+       font-size: 13px;
+    }
+    .main_slider .slider_1 .container .right_div p {
+        margin-bottom: 35px;
     }
     .owl-theme .owl-dots .owl-dot span {
-        height: 9px;
-       width: 9px;}
+        height: 10px;
+       width: 10px;}
     .owl-theme .owl-nav.disabled +.owl-dots{
-       top:90%;
+       top:88%;
     }
     .button-div .container {
         margin-bottom: 70px;
-    }
-    .Aboutus-div .container .paragraph-div h2::after {
-        margin-top: 60px;
     }
     .Aboutus-div .container .paragraph-div p {
         margin-top: 65px;
@@ -157,19 +156,22 @@
     .Aboutus-div .container .paragraph-div p:last-child {
         margin-top: 21px;
     }
+    .Aboutus-div .container .paragraph-div h2::after {
+        margin-top: 60px;
+    }
     .gallery-section .gallery-image {
         grid-template-columns: 1fr 1fr;
     }
     .Aboutus-div .container .paragraph-div p {
-        font-size: 11px;
+        font-size: 12px;
     }
     .Aboutus-div .container .paragraph-div h2 {
         font-size: 27px;
     }
-    .maindiv-1 .container .bottom_div {
+    .offer-services .container .bottom_div {
         padding-bottom: 91px;
     }
-    .maindiv-1 {
+    .offer-services {
         padding-top: 70px;
     }
     .inner_banner{
@@ -189,6 +191,12 @@
     .welcome-to {
         padding-top: 65px;
         padding-bottom: 60px;
+    }
+    .welcome-to .container .right-div h2 {
+        margin-top: 35px;
+    }
+    .welcome-to .container .right-div p:last-child {
+        margin-top: 16px;
     }
     .maintenance .container .div-d h2, .maintenance .container .div-e h2, .maintenance .container .div-f h2 {
         font-size: 22px;
@@ -252,6 +260,7 @@
     }
     .house-renovation .container .renovation_info .images p {
         font-size: 11px;
+        line-height: 25px;
     }
     .welcome-to .container .right-div p {
         font-size: 12px;
@@ -274,14 +283,11 @@
 }
 @media only screen and (max-width:840px){
     header .main_nav .container nav .menu ul li a {
-        padding: 0 15px;
+        margin: 0 11px;
     }
     .main_slider .slider_1, .main_slider .slider_2, .main_slider .slider_3 {
         height: 310px;
     }
-    .owl-theme .owl-dots .owl-dot span {
-        height: 8px;
-        width: 8px;}
     .Aboutus-div .container .right-div {
         padding-right: 37px;
     }
@@ -309,17 +315,8 @@
     }
 }
 @media only screen and (max-width:800px){
-    header .main_nav .container nav .menu ul li a {
-        padding: 0 12px;
-    }
-    .main_slider .slider_1 .container .right_div a , .main_slider .slider_2 .container .left_div a, .main_slider .slider_3 .container .right_div a{
-        padding: 12px 23px;
-    }
     .inner_banner {
         height: 200px;
-    }
-    .house-renovation .container .renovation_info .images p {
-        font-size: 10px;
     }
     .welcome-to .container .right-div h2::after {
         margin-top: 60px;
@@ -367,6 +364,9 @@
         text-align: center;
         order: 1;
     }
+    .main_slider .slider_1 .container .right_div h1, .main_slider .slider_2 .container .left_div h1, .main_slider .slider_3 .container .right_div h1 {
+        line-height: 50px;
+    }
     header .top_header .container .header_content .div1 ul li {
         margin-right: 10px
     }
@@ -385,14 +385,17 @@
     .owl-theme .owl-nav.disabled +.owl-dots{
         top:89%;
     }
-    .maindiv-1 .container .bottom_div{
+    .offer-services .container .bottom_div{
         grid-template-columns: 1fr;
     }
-    .maindiv-1 .container .bottom_div{
+    .offer-services .container .bottom_div{
         row-gap: 45px;
     }
-    .maindiv-1 .container .bottom_div p {
+    .offer-services .container .bottom_div p {
         margin-top: 35px;
+    }
+    .offer-services .container .bottom_div {
+        padding-bottom: 60px;
     }
     .Aboutus-div .container{
         grid-template-columns: 1fr;
@@ -492,7 +495,7 @@
         padding-top: 20px;
         border-radius: 20px;
     }
-    .maindiv-1 {
+    .offer-services {
         padding-top: 50px;
     }
     .Aboutus-div .container .paragraph-div {
@@ -535,7 +538,7 @@
     .main_nav {
         padding: 0;
     }
-    .maindiv-1 .container .bottom_div {
+    .offer-services .container .bottom_div {
         padding-top: 113px;
     }
     .house-renovation {
@@ -549,6 +552,7 @@
     }
     .house-renovation .container .renovation_info .images p {
         margin-top: 10px;
+        line-height: 25px;
     }
     .house-renovation .container .renovation_info .images h3 {
         margin-top: 12px;
@@ -625,23 +629,16 @@
         padding-top: 15px;
     }
     .form .container .right-side-div {
-        padding-left: 10px;
+        padding-left: 20px;
+    }
+    .form .container .right-side-div .info ul li a {
+        font-size: 17px;
+    }
+    .form .container .right-side-div ul li h3 {
+        font-size: 18px;
     }
 }
 @media only screen and (max-width:740px){
-    .main_slider .slider_1 .container .right_div h3, .main_slider .slider_2 .container .left_div h3, .main_slider .slider_3 .container .right_div h3{
-        font-size: 14px;
-    }
-    .main_slider .slider_1 .container .right_div h1, .main_slider .slider_2 .container .left_div h2, .main_slider .slider_3 .container .right_div h2 {
-        font-size: 43px;
-    }
-    .main_slider .slider_1 .container .right_div p, .main_slider .slider_2 .container .left_div p, .main_slider .slider_3 .container .right_div p {
-        font-size: 9px;
-    }
-    .main_slider .slider_1 .container .right_div a , .main_slider .slider_2 .container .left_div a, .main_slider .slider_3 .container .right_div a{
-        padding: 10px 21px;
-        font-size: 10px;
-     }
    .main_slider .slider_1 .container .right_div h2, .main_slider .slider_2 .container .left_div h2, .main_slider .slider_3 .container .right_div h2 {
        font-size: 46px;
     }
@@ -668,9 +665,6 @@
     footer .bottom-footer .container p {
         font-size: 12px;
     }
-    header .main_nav .container nav .logo {
-        height: 57px;
-    }
     header .main_nav .container nav .logo img {
         padding: 10px 0px;
     }
@@ -692,16 +686,12 @@
     .maintenance .container .div-d p, .maintenance .container .div-e p, .maintenance .container .div-f p {
         font-size: 14px;
     }
+
 }
 @media only screen and (max-width:640px){
-    .owl-theme .owl-dots .owl-dot span {
-        height: 5px;
-        width: 5px;
-    }
     .owl-theme .owl-nav.disabled +.owl-dots{
         top:88%;
     }
-
     .main_slider .slider_1, .main_slider .slider_2, .main_slider .slider_3 {
         height: 274px;
     }
@@ -710,6 +700,9 @@
     }
     .Aboutus-div .container .paragraph-div h2::after{
         left:39%;
+    }
+    .Aboutus-div .container .paragraph-div p {
+        font-size: 11px;
     }
     .inner_banner {
         height: 175px;
@@ -726,15 +719,16 @@
         font-size: 34px;
     }
     .main_slider .slider_1 .container .right_div p, .main_slider .slider_2 .container .left_div p, .main_slider .slider_3 .container .right_div p {
-        margin-bottom: 25px;}
-    .main_slider .slider_1 .container .right_div p, .main_slider .slider_2 .container .left_div p, .main_slider .slider_3 .container .right_div p {
-        font-size: 8px;
+        margin-bottom: 25px;
     }
     .main_slider .slider_1 .container .right_div, .main_slider .slider_3 .container .right_div {
         padding-bottom: 23px;
     }
     .main_slider .slider_1, .main_slider .slider_2, .main_slider .slider_3 {
         height: 245px;
+    }
+    .main_slider .slider_1 .container .right_div h1, .main_slider .slider_2 .container .left_div h1, .main_slider .slider_3 .container .right_div h1 {
+        font-size: 45px;
     }
     .Aboutus-div .container .right-div p {
         font-size: 9px;
@@ -778,6 +772,7 @@
         font-size: 13px;
     }
 }
+
 @media only screen and (max-width:550px){
     .main_slider .slider_1, .main_slider .slider_2, .main_slider .slider_3 {
         height: 205px;
@@ -785,11 +780,14 @@
     .main_slider .slider_1 .container .right_div .button a:first-child {
         margin-right: 12px;
     }
-    .main_slider .slider_1 .container .right_div a, .main_slider .slider_2 .container .left_div a, .main_slider .slider_3 .container .right_div a {
-        padding: 8px 16px;
-    }
     .main_slider .slider_1 .container .right_div p ,.main_slider .slider_2 .container .left_div p,.main_slider .slider_3 .container .right_div p{
         margin-bottom: 18px;
+    }
+    .main_slider .slider_1 .container .right_div a {
+        padding: 12px 24px;
+    }
+    .main_slider .slider_1 .container .right_div h1, .main_slider .slider_2 .container .left_div h1, .main_slider .slider_3 .container .right_div h1 {
+        line-height: 46px;
     }
     .owl-theme .owl-nav.disabled +.owl-dots{
         top:86%;
@@ -830,6 +828,7 @@
     .silver .container h3 {
         font-size: 19px;
     }
+
 }
 @media only screen and (max-width:500px){
     .main_slider .slider_1, .main_slider .slider_2, .main_slider .slider_3 {
@@ -843,15 +842,14 @@
         margin-right: 10px;
     }
     .main_slider .slider_1 .container .right_div p, .main_slider .slider_2 .container .left_div p, .main_slider .slider_3 .container .right_div p {
-         font-size: 6px;
-    }
-    .main_slider .slider_1 .container .right_div h1, .main_slider .slider_2 .container .left_div h2, .main_slider .slider_3 .container .right_div h2 {
-            font-size: 32px;}
-    .owl-theme .owl-nav.disabled +.owl-dots{
-        top:84%;
+        font-size: 6px;
     }
     .main_slider .slider_1 .container .right_div p, .main_slider .slider_2 .container .left_div p, .main_slider .slider_3 .container .right_div p {
-        margin-bottom: 11px;}
+        margin-bottom: 5px;
+    }
+    .main_slider .slider_1 .container .right_div h1, .main_slider .slider_2 .container .left_div h1, .main_slider .slider_3 .container .right_div h1 {
+        font-size: 42px;
+    }
     .Aboutus-div .container .right-div h2::after {
         left: 36%;
     }
@@ -861,8 +859,8 @@
     .main_slider .slider_2 .container .left_div {
         padding-left: 0px;
     }
-    .main_slider .slider_1 .container .right_div h1, .main_slider .slider_2 .container .left_div h2, .main_slider .slider_3 .container .right_div h2 {
-        font-size: 27px;
+    .main_slider .slider_1 .container .right_div p, .main_slider .slider_2 .container .left_div p, .main_slider .slider_3 .container .right_div p {
+        font-size: 12px;
     }
     footer .top-footer p {
         font-size: 16px;
@@ -912,19 +910,7 @@
     }
 }
 @media only screen and (max-width:480px){
-    .main_slider .slider_1 .container .right_div h1, .main_slider .slider_2 .container .left_div h2, .main_slider .slider_3 .container .right_div h2 {
-        font-size: 26px;}
-    .main_slider .slider_1 .container .right_div h3, .main_slider .slider_2 .container .left_div h3, .main_slider .slider_3 .container .right_div h3{
-        font-size: 10px;
-    }
-    .owl-theme .owl-nav.disabled +.owl-dots{
-        top:83%;
-    }
-    .owl-theme .owl-dots .owl-dot span {
-        height: 4px;
-        width: 4px;
-    }
-    .maindiv-1 .container .top_div h2 {
+    .offer-services .container .top_div h2 {
         font-size: 25px;
     }
     footer .top-footer p {
@@ -948,10 +934,11 @@
     .form .container .left-side-div p {
         font-size: 13px;
     }
+
 }
 @media only screen and (max-width:450px){
     .main_slider .slider_1, .main_slider .slider_2, .main_slider .slider_3 {
-        height: 175px;
+        height: 195px;
     }
     .inner_banner .container .banner_text h2 {
         font-size: 23px;
@@ -1003,7 +990,7 @@
     }
 }
 @media only screen and (max-width:420px){
-    .maindiv-1 .container .top_div h2 {
+    .offer-services .container .top_div h2 {
         font-size: 22px;
     }
     .Aboutus-div .container .right-div p {
@@ -1016,10 +1003,7 @@
         left: 32%;
     }
     .main_slider .slider_1 .container .right_div p, .main_slider .slider_2 .container .left_div p, .main_slider .slider_3 .container .right_div p {
-         margin-bottom: 8px;
-    }
-    .main_slider .slider_1 .container .right_div p, .main_slider .slider_2 .container .left_div p, .main_slider .slider_3 .container .right_div p {
-         font-size: 6px;
+        margin-bottom: 8px;
     }
     .main_slider .slider_1 .container .right_div .button a:first-child,.main_slider .slider_2 .container .left_div .button a:first-child, .main_slider .slider_3 .container .right_div .button a:first-child {
         margin-right: 6px;
@@ -1054,13 +1038,23 @@
     .maintenance .container .div-d p, .maintenance .container .div-e p, .maintenance .container .div-f p {
         font-size: 11px;
     }
+
 }
 @media only screen and (max-width:400px){
     .main_slider .slider_1, .main_slider .slider_2, .main_slider .slider_3 {
-        height: 150px;
+        height: 180px;
+    }
+    .owl-theme .owl-nav.disabled + .owl-dots {
+        top: 84%;
     }
     .main_slider .slider_1 .container .right_div a, .main_slider .slider_2 .container .left_div a, .main_slider .slider_3 .container .right_div a {
         font-size: 7px;
+    }
+    .main_slider .slider_1 .container .right_div h1, .main_slider .slider_2 .container .left_div h1, .main_slider .slider_3 .container .right_div h1 {
+        font-size: 37px;
+    }
+    .main_slider .slider_1 .container .right_div p, .main_slider .slider_2 .container .left_div p, .main_slider .slider_3 .container .right_div p {
+        font-size: 10px;
     }
     .Aboutus-div .container .paragraph-div p {
         font-size: 8px;
@@ -1114,31 +1108,22 @@
     .form .container .left-side-div {
         padding-top: 27px;
     }
+
 }
 @media only screen and (max-width:375px){
     header .top_header .container .header_content .div1 ul li {
         font-size: 12px;
     }
     .Aboutus-div .container .right-div h2::after {
-    left: 28%;
+        left: 28%;
     }
     .main_slider .slider_1 .container .right_div a, .main_slider .slider_2 .container .left_div a, .main_slider .slider_3 .container .right_div a {
         font-size: 7px;
     }
     .main_slider .slider_1 .container .right_div p, .main_slider .slider_2 .container .left_div p, .main_slider .slider_3 .container .right_div p {
-        margin-bottom: 5px;
+        margin-bottom: 0px;
     }
-    .main_slider .slider_1 .container .right_div h1, .main_slider .slider_2 .container .left_div h2, .main_slider .slider_3 .container .right_div h2 {
-        font-size: 22px;
-    }
-    .main_slider .slider_1 .container .right_div p, .main_slider .slider_2 .container .left_div p, .main_slider .slider_3 .container .right_div p {
-        font-size: 5px;
-    }
-    .main_slider .slider_1 .container .right_div a, .main_slider .slider_2 .container .left_div a, .main_slider .slider_3 .container .right_div a {
-        padding: 4px 12px;
-        font-size: 5px;
-    }
-    .maindiv-1 .container .top_div h2 {
+    .offer-services .container .top_div h2 {
         font-size: 18px;
     }
     footer .top-footer a {
@@ -1146,6 +1131,9 @@
     }
     footer .top-footer p {
         font-size: 11px;
+    }
+    footer .top-footer p {
+        padding-right: 0px !important;
     }
     footer .bottom-footer .container p {
         font-size: 6px;

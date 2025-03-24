@@ -9,11 +9,12 @@
 .container {
     max-width: 1140px;
     margin: 0 auto;
+    padding:0 20px;
 }
 /* top header start */
 header .top_header {
 	background-color: #173a69;
-	padding: 10px;
+	padding: 10px 0;
 }
 
 header .top_header .container .header_content {
@@ -85,6 +86,8 @@ header .main_nav .container nav .menu ul {
 
 header .main_nav .container nav .menu ul li {
     display: inline-block;
+    position: relative;
+    transition: .4s;
 }
 
 header .main_nav .container nav .menu ul li a {
@@ -92,17 +95,17 @@ header .main_nav .container nav .menu ul li a {
     font-size: 15px;
     color: black;
     font-weight: 700;
-    padding:0 28px;
+    margin:0 28px;
     position: relative;
 
 }
 
 
 header .main_nav .container nav .menu ul li:last-child a {
-    padding-right: 0;
+    margin-right: 0;
 }
 
-header .main_nav .container nav .menu ul li a::after {
+header .main_nav .container nav .menu ul li::after {
     content: '';
     position: absolute;
     width: 0;
@@ -111,7 +114,7 @@ header .main_nav .container nav .menu ul li a::after {
     bottom: -46px;
 }
 
-header .main_nav .container nav .menu ul li:hover a::after {
+header .main_nav .container nav .menu ul li:hover::after {
     width: 100%;
     background-color: #0c1f38;
     transition: 0.4s;
@@ -309,41 +312,41 @@ header .main_nav .container .menu_bar{
    top:91%;
    left: 48%;
 }
-/* what services do we offer main div1 */
-.maindiv-1{
+/* what services do we offer section */
+.offer-services{
     background-color: #ffffff;
     padding-top: 85px;
 }
-.maindiv-1 .container .top_div{
+.offer-services .container .top_div{
     align-content: center;
 }
-.maindiv-1 .container .top_div h2{
-    font-size: 28px;
+.offer-services .container .top_div h2{
+  font-size: 28px;
   text-transform: uppercase;
   text-align: center;
   position:relative;
   line-height: 0;
 }
-.maindiv-1 .container .top_div .image_container {
+.offer-services .container .top_div .image_container {
     padding-top:45px;
     align-content: center;
     padding-left: 455px;
 }
-.maindiv-1 .container .bottom_div{
+.offer-services .container .bottom_div{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     padding-top: 135px;
     padding-bottom: 125px;
     text-align: center;
 }
-.maindiv-1 .container .bottom_div p{
+.offer-services .container .bottom_div p{
     font-size: 17px;
    margin-top: 40px;
     color: black;
     text-transform: capitalize;
     text-align: center;
 }
-.maindiv-1 .container .top_div h2::after{
+.offer-services .container .top_div h2::after{
     content: '';
     position: absolute;
     background-image: url('images/square_design.png');
@@ -376,7 +379,6 @@ header .main_nav .container .menu_bar{
     position:relative;
     text-align: left;
     font-weight: 700;
-    
 }
 .Aboutus-div .container .paragraph-div h2::after{
     content: '';
@@ -384,7 +386,7 @@ header .main_nav .container .menu_bar{
     background-image: url('images/about-design.png');
     height:23px;
     width:124px;
-    margin-top: 70px;
+    margin-top: 74px;
     background-repeat: no-repeat;
     left:0;
 }
@@ -810,8 +812,7 @@ footer .bottom-footer .container p a{
 .maintenance .container{
    display: grid;
    grid-template-columns: 1fr 1fr 1fr;
-   gap:15px;
-
+   gap:20px;
 }
 .maintenance .container .div-d, .div-e, .div-f{
     text-align: center;
